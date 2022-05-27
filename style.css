@@ -32,17 +32,56 @@ body {
 
 }
 
+
+
 .annika
 {
   font-size: 15px;
-  text-align: left;
+  text-align: right;
   line-height: 30px;
+  margin:  150px auto;
+  width: 80%;
+  padding: 0px;
 }
 
 .aline{
   font-size: 15px;
   text-align: left;
   line-height: 30px;
+  margin:  150px auto;
+  width: 80%;
+  padding: 0;
+
+}
+.quoteselbstliebe{
+  justify-content: center;
+  align-items: flex-end;
+  padding: 30px 150px  50px;
+}
+
+.secondworkshop{
+  justify-content: center;
+  align-items: flex-end;
+  padding: 15px 150px  50px;
+
+}
+
+.textannika{
+  margin: auto;
+  padding-right: 100px;
+}
+.aline img{
+  float:left; 
+  width: 300px;
+  height: 400px;
+  padding: 1px 20px 0 0;
+}
+
+.annika img{
+  float: right;
+  width: 300px;
+  height: 400px;
+  padding: 1px 20px 30px 10px;
 }
 
 .container{
@@ -280,6 +319,15 @@ btn-1::after,.btn-1::before{
 
   }
 
+  .textaline{
+    width: 50%;
+    margin-left: 400px;
+  }
+
+  .aline{
+    margin-bottom: 0;
+  }
+
   .obenplatz {
     display: contents;
     justify-content: center;
@@ -334,6 +382,7 @@ btn-1::after,.btn-1::before{
 
   }
 
+
   
   section h1{
     color:#171616;
@@ -355,6 +404,8 @@ btn-1::after,.btn-1::before{
     overflow: hidden;
 
   }
+
+  
 
   .textlayout{
     width: 40vw;
@@ -406,3 +457,54 @@ btn-1::after,.btn-1::before{
     margin-top: 1000px;
   }
 
+
+
+
+ .faq_body, .head{
+  max-width: 1000px;
+  margin-left: 180px;
+}
+
+.head{
+  text-align: center;
+  padding: 20px 0px;
+  background: #274e3e;
+    border-radius: 7px 7px 0px 0px;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    font-family: "Rubik";
+ }
+
+
+.faq_body{
+  background-color:rgb(178, 192, 186);
+  border-radius: 10px;
+  padding: 30px 20px;
+}
+
+summary{
+  background-color: rgb(178, 192, 186);
+  padding: 20px 30px;
+  border-radius: 10px;
+  margin: 15px 0px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+summary:hover{
+  background-color: #e6e3e3;
+}
+
+details[open=""] > summary{
+  background-color: #e6e3e3;
+}
+
+details div{
+  background-color:rgb(178, 192, 186);
+  padding: 10px 20px;
+  border-radius: 10px;
+  line-height: 2;
+  margin-bottom: 40px;
+}
+ 
