@@ -9,24 +9,12 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-color: rgb(101, 150, 132);
-    line-height: 40px;
-}
-
-.yoga{
-  background-color:    rgb(101, 150, 132) ;
-  line-height: 40px;
-}
-
-* {
-  box-sizing:border-box;
 }
 
 .thema{
   font-size: 20px;
   text-align: left;
   margin: 20px;
-  line-height: 40px;
-
 }
 
 .infozuselbstliebe{
@@ -35,108 +23,34 @@ body {
   margin:20px;
   line-height: 30px;
   margin-top: 10px;
-  line-height: 40px;
 }
 
 .intention{
   font-size: 22px;
   text-align: center;
   line-height: 30px;
-  line-height: 40px;
+
+}
+.Workshops{
+  font-size: 22px;
+  text-align: center;
+  line-height: 30px;
 
 }
 
 
-
-.annika
+.Helena
 {
   font-size: 15px;
-  text-align:left;
+  text-align: left;
   line-height: 30px;
-  margin:  150px auto;
-  width: 80%;
-  padding: 50px;
-  line-height: 40px;
-  background-color: rgb(101, 150, 132);;
 }
 
 .aline{
   font-size: 15px;
   text-align: left;
   line-height: 30px;
-  margin:  150px auto;
-  width: 80%;
-  padding: 50px;
-  line-height: 40px;
-  background-color:rgb(101, 150, 132) ;
 
-}
-
-.selbstliebe{
-  border: 2px solid #000;
-  border-radius: 5px;
-  justify-content: center;
-  align-items: flex-end;
-  padding: 15px 150px 50px;
-
-
-}
-
-.thema{
-  border: 4px solid #000;
-  border-radius: 5px;
-  padding: 15px 50px 50px;
-
-
-}
-
-
-.intention{
-  border: 5px solid #000;
-  border-radius: 5px;
-
-}
-
-.secondworkshop {
-  justify-content: center;
-  align-items: flex-end;
-  padding: 15px 150px 50px;
-  border: 2px solid #000;
-  border-radius: 5px;
-
-}
-
-.textkunsttherapie{
-  font-size: 20px;
-  text-align: left;
-  margin: 20px;
-  line-height: 40px;
-
-}
-
-.textannika p {
-  margin: auto;
-  padding-right: 350px;
-  line-height: 40px;
-}
-.aline img{
-  float:left; 
-  width: 300px;
-  height: 400px;
-  padding: 0 0 20px 0;
-}
-.textaline{
-  margin: 0px;
-  padding-right: 50px;
-  line-height: 40px;
-
-}
-
-.annika img{
-  float: right;
-  width: 300px;
-  height: 400px;
-  padding: 1px 20px 30px 10px;
 }
 
 .container{
@@ -249,27 +163,25 @@ btn-1::after,.btn-1::before{
     align-items: center;
     background-color: black;
     margin: 100px;
-    height: 50px;
-    color: white;
-    text-align: left;
-    display: flex;
 
   }
   .yoga{
-    background-color: rgb(101, 150, 132);
+    background-color: rgb(178, 192, 186);
   }
 
-
   .oberste{
-    background-color: rgb(117, 178, 124);
-    height: 50px;
+    background-color: #000;
+    height: 25px;
     color: white;
     text-align: left;
     display: flex;
   }
   
+  #nebenbild {
+    float:right;
+    margin-right: 5px;
+    }
 
-  
 
   #teaser {
     width: 100%;
@@ -290,17 +202,6 @@ btn-1::after,.btn-1::before{
 .flies{
   background-image: url(fliesen.jpg);
 }
-
-body{
-  height: 100%;
-}
-
-html{
-  height: 100%;
-}
-
-
-
   
 .yogart{
   color: #030303;
@@ -321,165 +222,11 @@ html{
 
 }
 
-
-
-@media screen and (max-width: 650px){
-  .flies{
-    display: contents;
-    size: 100%;
-    margin: 0%;
-    position: absolute;
-  }
-  .wasser{
-    display: contents;
-    margin: 0;
-    position: absolute;
-  }
-  .yogart{
-    display: inline-block;
-    padding: auto;
-    margin: 0;
-    width: auto;
-    position: absolute;
-  }
-
-  .yogart h1 font{
-    font-display: auto;
-  }
-.More {
-  display: contents;
-}
-
-.yoga{
-  display: contents;
-}
-
-.more p{
-  display: contents;
-  width: fit-content;
-}
-  .h1{
-    display: fit-content;
-    width: 500px;
-  }
-
-  .h2{
-    width: fit-content;
-  }
-
-  .h3{
-    display: ;
-  }
-  .coron{
-   display: inline-block;
-   justify-content: center;
-   align-items: center;
-   background-color: rgb(101, 150, 132);
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   width: auto;
-
-  }
-
-  .buttons{
-    width: 30px;
-    max-width: fit-content;
-    display:-moz-groupbox;
-
-  }
-  .container{
-    display: contents;
-    padding: 0;
-    margin: 0;
-    size-adjust: center;
-  }
-  section {
-    display: inline-block;
-    width: 600px;
-    padding: 5px;
-   
-  }
-
-  section p {
-    display: contents;
-    position: absolute;
-  }
-
-  
-  body{
-    background: none;
-  }
-  .mitte{
-    display: contents;
-    justify-content: center;
-    align-items: center;
-    position:fixed;
-    z-index:999;
-    margin: auto;
-  }
-  .buttons a{
-    display: inline-block;
-    block-size: auto;
-  }
-
-  .button a .btn-1{
-    display: none;
-  }
-  .textannika p{
-    display: contents;
-  }
-
-  .textaline{
-    display: contents;
-  }
-  .annika img {
-    display: none;
-  }
-
-  .aline img {
-    display: none;
-  }
-  .faq_body{
-    display: contents;
-    background-color: #274e3e;
+  @media only screen and (max-width: 500px) {
+    body {
+      height: 600px;
     }
-  .head{
-    display: contents;
-    background-color: #274e3e;
   }
-  .secondworkshop{
-    display: contents;
-  }
-  .quoteselbstliebe{
-    display: contents;
-  }
-
-  .selbstliebe{
-    display: contents;
-  }
-  .infozuselbstliebe{
-    display: contents;
-    
-  }
-}
-
-
-@media only screen and (max-width: 800px) {
-  body {
-    height: 600px;
-    background-attachment: fixed;
-    background-size: cover;
-    background-color: rgb(101, 150, 132);  
-  }
-  section .menubar{
-    display: none;
-  }
-  .menubutton{
-    display: none;
-  }
-
-}
   header nav ul h2 {
     display: contents;
     height: 30px;
@@ -506,9 +253,6 @@ html{
     color: #817d63;
   
   }
-
-
-
   
   footer ul li a,
   nav ul li a {
@@ -542,41 +286,8 @@ html{
     display: block;
     justify-content: center;
     align-items: center;
-    line-height: 40px;
 
 
-  }
-
-
-
-
-
-  @media(max-width: 700px) {
-    section{
-      max-width: 100%;
-    }
-    .yogart{
-      max-width: max-content;
-    }
-  }
-
-
-  @media (max-width: 800px){
-    section{
-      max-width: fit-content;
-      padding:0;
-      margin: 0;
-    }
-  }
-
-  .textaline{
-    width: 60%;
-    margin-left: 350px;
-  }
- 
-
-  .aline{
-    margin-bottom: 0;
   }
 
   .obenplatz {
@@ -633,7 +344,6 @@ html{
 
   }
 
-
   
   section h1{
     color:#171616;
@@ -656,9 +366,6 @@ html{
 
   }
 
-
-  
-
   .textlayout{
     width: 40vw;
     height: 40vw;
@@ -676,7 +383,7 @@ html{
     transition: transform 0.5s;
   }
 
-  @media(min-height:600px){
+  @media(min-height:850px){
     .rahmenimg img:hover{
       transform:scale(1.5);
     }
@@ -711,52 +418,3 @@ html{
 
 
 
-
- .faq_body, .head{
-  max-width: 1000px;
-  margin-left: 180px;
-}
-
-.head{
-  text-align: center;
-  padding: 20px 0px;
-  background: #274e3e;
-    border-radius: 7px 7px 0px 0px;
-    padding: 10px;
-    color: #fff;
-    text-align: center;
-    font-family: "Rubik";
- }
-
-
-.faq_body{
-  background-color:rgb(178, 192, 186);
-  border-radius: 10px;
-  padding: 30px 20px;
-}
-
-summary{
-  background-color: rgb(178, 192, 186);
-  padding: 20px 30px;
-  border-radius: 10px;
-  margin: 15px 0px;
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
-}
-
-summary:hover{
-  background-color: #e6e3e3;
-}
-
-details[open=""] > summary{
-  background-color: #e6e3e3;
-}
-
-details div{
-  background-color:rgb(178, 192, 186);
-  padding: 10px 20px;
-  border-radius: 10px;
-  line-height: 2;
-  margin-bottom: 40px;
-}
- 
